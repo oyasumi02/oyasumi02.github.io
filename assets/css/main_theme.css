@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'MEKTON';
-    src: url('/assets/fonts/MEKTON.ttf') format('truetype');
+    font-family: 'Josefin Sans';
+    src: url('/assets/fonts/JosefinSansRegular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -11,7 +11,7 @@ body {
     background-color: black;
 
     /* [ Font ] */
-    font-family: 'MEKTON', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 
 }
 
