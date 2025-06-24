@@ -10,6 +10,8 @@
     --main-border-color: rgb(129, 0, 0);
     --main-border-radius: 80%;
 
+    --main-image-size: 450px;
+
     /* [ Text Box ]*/
 
     --text-box-border-color: solid rgb(255, 123, 0);
@@ -37,7 +39,7 @@
     border-radius: var(--main-border-radius);
 }
 
-/* { Link Table } */
+/* { Nav Bar } */
 
 .link-table {
     margin-top: 20px;
@@ -91,20 +93,41 @@
     margin-top: 10px;
 }
 
-/* { Informative Text Boxes } */
+/* { Body Elements } */
+
+.main-image {
+    width: var(--main-image-size);
+    height: var(--main-image-size);
+
+    border: solid var(--main-border-color);
+}
 
 #bio {
-    margin-top: 50px;
+    margin-top: 160px;
     margin-left: 50px;
 }
 
+#bio-image {
+    float: right;
+
+    margin-top: 100px;
+    margin-right: 150px;
+}
+
 #skills {
-    margin-top: 200px;
+    margin-top: 400px;
     margin-left: 1200px;
 }
 
+#skills-image {
+    float: left;
+
+    margin-top: 250px;
+    margin-left: 150px;
+}
+
 #experience {
-    margin-top: 200px;
+    margin-top: 400px;
     margin-left: 50px;
 }
 
