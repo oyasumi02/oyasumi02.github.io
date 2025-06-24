@@ -6,6 +6,10 @@
 
 :root {
 
+    /* [ Body ] */
+    --main-border-color: rgb(129, 0, 0);
+    --main-border-radius: 80%;
+
     /* [ Text Box ]*/
 
     --text-box-border-color: solid rgb(255, 123, 0);
@@ -15,9 +19,6 @@
     /* [ Bio ] */
     
     --bio-margin: 50px;
-
-    /* [ Skills ] */
-    --skills-margin: 150px;
 }
 
 /* :: [ Main Body ] ::*/
@@ -32,8 +33,8 @@
 }
 
 .main-header hr {
-    border: solid rgb(129, 0, 0);
-    border-radius: 80%;
+    border: solid var(--main-border-color);
+    border-radius: var(--main-border-radius);
 }
 
 /* { Link Table } */
@@ -41,7 +42,7 @@
 .link-table {
     margin-top: 20px;
 
-    border: 4px solid rgb(129, 0, 0);
+    border: 4px solid var(--main-border-color);
     background-color: black;
     width: 100%;
     border-collapse: collapse;
@@ -57,7 +58,7 @@
     color: rgb(255, 255, 255);
 
     padding: 8px;
-    border: 4px solid rgb(129, 0, 0);
+    border: 4px solid var(--main-border-color);
 }
 
 .link-table a {
@@ -105,6 +106,14 @@
 #experience {
     margin-top: 200px;
     margin-left: 50px;
+}
+
+/* { Footer } */
+.main-footer hr {
+    margin-top: 50px;
+
+    border: solid var(--main-border-color);
+    border-radius: var(--main-border-radius);
 }
 
 /* { Font Configuration }  */
