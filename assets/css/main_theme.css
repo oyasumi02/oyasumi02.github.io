@@ -6,24 +6,24 @@
 
 :root {
 
-    /* [ Body ] */
+    /* [ Body Colors ] */
 
-    --main-title-color: #8D99AE;
+    --main-title-color: #ec6f50;
 
     --main-text-color: #EDF2F4;
-    --main-background-color: #72131f;
+    --main-background-color: #b94757;
     --main-border-color: #EF233C;
     
-    --main-navbar-color: #8D99AE;
-    --main-box-color: #1D3557;
-    --main-box-shadow-color: #D90429;
+    --main-navbar-color: #571d1d;
+    --main-box-color: #571d1d;
+    --main-box-shadow-color: #b40000;
 
     --main-border-radius: 80%;
     --main-image-size: 450px;
 
     /* [ Text Box ]*/
 
-    --text-box-border-color: solid rgb(255, 115, 0);
+    --text-box-border-color: solid rgb(255, 60, 0);
     --text-box-hr-size: 2px;
 
 }
@@ -33,15 +33,12 @@
 /* { Header } */
 
 #main-title {
-    display: block;
-    text-align: center;
-    margin: 0 auto;
     font-size: 2em;
-}
-
-#main-title {
-    max-width: 400px;
     text-align: center;
+
+    display: block;
+    margin: 0 auto;
+    max-width: 400px;
     line-height: 1.2em;
     padding-top: 10px;
 
@@ -147,6 +144,7 @@
 }
 
 /* { Footer } */
+
 .main-footer hr {
     margin-top: 50px;
 
@@ -164,10 +162,13 @@
 }
 
 body {
+
     /* [ Font and Background Colors ] */
-    color: black;
+
+    color: var(--main-text-color);
     background-color: var(--main-background-color);
 
     /* [ Font ] */
+
     font-family: 'Josefin Sans', sans-serif;
 }
