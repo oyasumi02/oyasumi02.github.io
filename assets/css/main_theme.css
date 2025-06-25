@@ -7,20 +7,25 @@
 :root {
 
     /* [ Body ] */
-    --main-border-color: rgb(129, 0, 0);
-    --main-border-radius: 80%;
 
+    --main-title-color: #8D99AE;
+
+    --main-text-color: #EDF2F4;
+    --main-background-color: #72131f;
+    --main-border-color: #EF233C;
+    
+    --main-navbar-color: #8D99AE;
+    --main-box-color: #1D3557;
+    --main-box-shadow-color: #D90429;
+
+    --main-border-radius: 80%;
     --main-image-size: 450px;
 
     /* [ Text Box ]*/
 
-    --text-box-border-color: solid rgb(255, 123, 0);
-    --text-box-shadow-color: rgb(194, 61, 0);
+    --text-box-border-color: solid rgb(255, 115, 0);
     --text-box-hr-size: 2px;
 
-    /* [ Bio ] */
-    
-    --bio-margin: 50px;
 }
 
 /* :: [ Main Body ] ::*/
@@ -34,6 +39,17 @@
     font-size: 2em;
 }
 
+#main-title {
+    max-width: 400px;
+    text-align: center;
+    line-height: 1.2em;
+    padding-top: 10px;
+
+    color: var(--main-text-color);
+    border: 4px solid var(--main-border-color);
+    background-color: var(--main-title-color);
+}
+
 .main-header hr {
     border: solid var(--main-border-color);
     border-radius: var(--main-border-radius);
@@ -41,18 +57,18 @@
 
 /* { Nav Bar } */
 
-.link-table {
+.navbar {
     margin-top: 20px;
 
     border: 4px solid var(--main-border-color);
-    background-color: black;
+    background-color: var(--main-navbar-color);
     width: 100%;
     border-collapse: collapse;
 
     table-layout: fixed;
 }
 
-.link-table td {
+.navbar td {
     position: relative;
     top: 3px;
     text-align: center;
@@ -63,7 +79,7 @@
     border: 4px solid var(--main-border-color);
 }
 
-.link-table a {
+.navbar a {
     color: white;
     text-decoration: none;
 }
@@ -71,25 +87,24 @@
 /* { Text Box } */
 
 .text-box {
-    
-    color: black;
+    color: var(--main-text-color);
     text-align: center;
     font-size: 1.5em;
     max-width: 600px;
     line-height: 1.2;
 
-    border: 4px var(--text-box-border-color);
-    background-color: white;
-    box-shadow: 20px 20px 0px var(--text-box-shadow-color);
+    border: 4px solid var(--main-border-color);
+    background-color: var(--main-box-color);
+    box-shadow: 20px 20px 0px var(--main-box-shadow-color);
 }
 
 .text-box hr {
     margin-top: -28px;
-    border: var(--text-box-hr-size) var(--text-box-border-color);
+    border: 2px solid var(--main-border-color);
 }
 
 .text-box h2 {
-    color: black;
+    color: var(--main-text-color);
     margin-top: 10px;
 }
 
@@ -99,24 +114,24 @@
     width: var(--main-image-size);
     height: var(--main-image-size);
 
-    border: solid var(--main-border-color);
+    border: solid var(--main-theme-color);
 }
 
 #bio {
-    margin-top: 160px;
-    margin-left: 50px;
+    margin: 0 auto;
+    margin-top: 100px;
 }
 
 #bio-image {
     float: right;
 
-    margin-top: 100px;
+    margin-top: 150px;
     margin-right: 150px;
 }
 
 #skills {
-    margin-top: 400px;
-    margin-left: 1850px;
+    margin: 0 auto;
+    margin-top: 150px;
 }
 
 #skills-image {
@@ -127,8 +142,8 @@
 }
 
 #experience {
-    margin-top: 400px;
-    margin-left: 50px;
+    margin: 0 auto; 
+    margin-top: 150px;
 }
 
 /* { Footer } */
@@ -150,8 +165,8 @@
 
 body {
     /* [ Font and Background Colors ] */
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: var(--main-background-color);
 
     /* [ Font ] */
     font-family: 'Josefin Sans', sans-serif;
