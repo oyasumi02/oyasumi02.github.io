@@ -43,8 +43,10 @@
     padding-top: 10px;
 
     color: var(--main-text-color);
-    border: 4px solid var(--main-border-color);
     background-color: var(--main-title-color);
+    box-shadow: 10px 10px 0px var(--main-border-color);
+
+    border: 4px solid var(--main-border-color);
 }
 
 .main-header hr {
