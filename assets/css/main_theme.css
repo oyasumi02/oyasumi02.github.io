@@ -98,7 +98,7 @@ body {
     max-width: 40%;
     height: 15%;
 
-    margin-left: 25px;
+    margin-left: 50px;
     margin-top: 150px;
 
     border: 12px solid var(--main-color);
@@ -124,7 +124,7 @@ body {
 }
 
 #experience {
-    margin-left: 1340px;
+    margin-left: 1315px;
 }
 
 /* { Footer } */
