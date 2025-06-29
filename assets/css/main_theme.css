@@ -14,7 +14,7 @@
     --main-title-color: #ec6f50;
 
     --main-text-color: #EDF2F4;
-    --main-border-color: #ff814f;
+    --main-shadow-color: #7b8a69;
 }
 
 * {
@@ -102,6 +102,7 @@ body {
     margin-top: 150px;
 
     border: 12px solid var(--main-color);
+    box-shadow: 20px 24px 0px var(--main-shadow-color);
 }
 
 .text-box h2 {
