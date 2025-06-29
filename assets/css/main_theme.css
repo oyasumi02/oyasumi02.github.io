@@ -8,7 +8,7 @@
 
     /* [ Body Colors ] */
 
-    --main-header-color: #A5B68D;
+    --main-color: #A5B68D;
     --main-body-color: #C1CFA1;
 
     --main-font-color: ;
@@ -33,7 +33,7 @@
 #header-section {
     height: 150px;
     text-align: center;
-    background-color: var(--main-header-color);
+    background-color: var(--main-color);
 }
 
 #header-section h1 {
@@ -72,12 +72,19 @@ body {
     color: rgb(255, 255, 255);
 
     padding: 8px;
+
+    border-bottom: 4px solid transparent;
+    transition: border-color 0.3s ease;
 }
 
 .navbar a {
     font-size: 2rem;
     color: white;
     text-decoration: none;
+}
+
+.navbar td:hover {
+    border-bottom: 4px solid white;
 }
 
 .button-link {
@@ -97,6 +104,8 @@ body {
 
     margin-left: 25px;
     margin-top: 150px;
+
+    border: 12px solid var(--main-color);
 }
 
 .text-box h2 {
@@ -105,7 +114,7 @@ body {
 }
 
 .text-box hr {
-    border: 3px solid var(--main-header-color);
+    border: 3px solid var(--main-color);
     margin-bottom: 25px;
 }
 
@@ -120,7 +129,7 @@ body {
     margin-top: 825px;
     height: 150px;
 
-    background-color: var(--main-header-color);
+    background-color: var(--main-color);
 }
 
 #footer-section p {
