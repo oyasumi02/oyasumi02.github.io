@@ -123,18 +123,22 @@ body {
     font-size: 2em;
 }
 
+#experience {
+    margin-left: 1300px;
+}
+
 /* { Footer } */
 
 #footer-section {
-    margin-top: 20%;
-    height: 175px;
+    margin-top: 12%;
+    height: 180px;
 
     background-color: var(--main-color);
 }
 
 #footer-section p {
     text-align: center;
-    padding: 75px;
+    padding: 80px;
     font-size: 1.4rem;
     color: var(--main-font-color);
 }
