@@ -101,11 +101,12 @@ body {
 
 .text-box h2 {
     font-size: 4rem;
+    margin-bottom: 25px;
 }
 
 .text-box hr {
-
     border: 3px solid var(--main-header-color);
+    margin-bottom: 25px;
 }
 
 .text-box p {
