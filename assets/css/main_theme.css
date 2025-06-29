@@ -8,50 +8,49 @@
 
     /* [ Body Colors ] */
 
+    --main-header-color: #A5B68D;
+    --main-body-color: #C1CFA1;
+
+    --main-font-color: ;
     --main-title-color: #ec6f50;
 
     --main-text-color: #EDF2F4;
-    --main-background-color: #b94757;
-    --main-border-color: #EF233C;
-    
-    --main-navbar-color: #571d1d;
-    --main-box-color: #571d1d;
-    --main-box-shadow-color: #b40000;
+    --main-border-color: #ff814f;
 
     --main-border-radius: 80%;
-    --main-image-size: 450px;
 
-    /* [ Text Box ]*/
+}
 
-    --text-box-border-color: solid rgb(255, 60, 0);
-    --text-box-hr-size: 2px;
-
+* {
+    margin: 0;
+    font-size: 12pt;
 }
 
 /* :: [ Main Body ] ::*/
 
 /* { Header } */
 
-#main-title {
-    font-size: 2em;
+#header-section {
+    height: 150px;
     text-align: center;
-
-    display: block;
-    margin: 0 auto;
-    max-width: 400px;
-    line-height: 1.2em;
-    padding-top: 10px;
-
-    color: var(--main-text-color);
-    background-color: var(--main-title-color);
-    box-shadow: 10px 10px 0px var(--main-border-color);
-
-    border: 4px solid var(--main-border-color);
+    background-color: var(--main-header-color);
 }
 
-.main-header hr {
-    border: solid var(--main-border-color);
-    border-radius: var(--main-border-radius);
+#header-section h1 {
+    padding: 45px;
+    font-size: 5rem;
+}
+
+body {
+
+    /* [ Font and Background Colors ] */
+
+    color: var(--main-text-color);
+    background-color: var(--main-body-color);
+
+    /* [ Font ] */
+
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 /* { Nav Bar } */
@@ -59,8 +58,6 @@
 .navbar {
     margin-top: 20px;
 
-    border: 4px solid var(--main-border-color);
-    background-color: var(--main-navbar-color);
     width: 100%;
     border-collapse: collapse;
 
@@ -75,12 +72,25 @@
     color: rgb(255, 255, 255);
 
     padding: 8px;
-    border: 4px solid var(--main-border-color);
 }
 
 .navbar a {
     color: white;
     text-decoration: none;
+}
+
+.button-link hr {
+    display: none;
+    width: 100%;
+    border: 4px solid white;
+}
+
+.button-link a:hover hr {
+    display: block;
+}
+
+body hr {
+    border: solid var(--main-border-color);
 }
 
 /* { Text Box } */
@@ -109,49 +119,20 @@
 
 /* { Body Elements } */
 
-.main-image {
-    width: var(--main-image-size);
-    height: var(--main-image-size);
-
-    border: solid var(--main-theme-color);
-}
-
-#bio {
-    margin: 0 auto;
-    margin-top: 100px;
-}
-
-#bio-image {
-    float: right;
-
-    margin-top: 150px;
-    margin-right: 150px;
-}
-
-#skills {
-    margin: 0 auto;
-    margin-top: 150px;
-}
-
-#skills-image {
-    float: left;
-
-    margin-top: 250px;
-    margin-left: 150px;
-}
-
-#experience {
-    margin: 0 auto; 
-    margin-top: 150px;
-}
-
 /* { Footer } */
 
-.main-footer hr {
-    margin-top: 50px;
+#footer-section {
+    margin-top: 825px;
+    height: 150px;
 
-    border: solid var(--main-border-color);
-    border-radius: var(--main-border-radius);
+    background-color: var(--main-header-color);
+}
+
+#footer-section p {
+    text-align: center;
+    padding: 75px;
+    font-size: 1.4rem;
+    color: var(--main-font-color);
 }
 
 /* { Font Configuration }  */
@@ -161,16 +142,4 @@
     src: url('/assets/fonts/JosefinSansRegular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-}
-
-body {
-
-    /* [ Font and Background Colors ] */
-
-    color: var(--main-text-color);
-    background-color: var(--main-background-color);
-
-    /* [ Font ] */
-
-    font-family: 'Josefin Sans', sans-serif;
 }
