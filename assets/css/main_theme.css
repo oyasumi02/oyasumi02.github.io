@@ -57,24 +57,25 @@ body {
 
 .navbar {
     margin-top: 20px;
-
     width: 100%;
-    border-collapse: collapse;
 
+    text-align: center;
+    
+
+    border-collapse: collapse;
     table-layout: fixed;
 }
 
 .navbar td {
     position: relative;
     top: 3px;
-    text-align: center;
-    font-size: 1.4em;
     color: rgb(255, 255, 255);
 
     padding: 8px;
 }
 
 .navbar a {
+    font-size: 2rem;
     color: white;
     text-decoration: none;
 }
