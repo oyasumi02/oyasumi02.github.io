@@ -10,15 +10,11 @@
 
     --main-color: #A5B68D;
     --main-body-color: #C1CFA1;
-
-    --main-font-color: ;
+    
     --main-title-color: #ec6f50;
 
     --main-text-color: #EDF2F4;
     --main-border-color: #ff814f;
-
-    --main-border-radius: 80%;
-
 }
 
 * {
