@@ -8,13 +8,13 @@
 
     /* [ Body Colors ] */
 
-    --main-color: #A5B68D;
-    --main-body-color: #C1CFA1;
+    --main-color: #AF3E3E;
+    --main-body-color: #CD5656;
     
     --main-title-color: #ec6f50;
 
     --main-text-color: #EDF2F4;
-    --main-shadow-color: #7b8a69;
+    --main-shadow-color: #923b3b;
 }
 
 * {
@@ -98,7 +98,7 @@ body {
     max-width: 40%;
     height: 15%;
 
-    margin-left: 50px;
+    margin-left: 3%;
     margin-top: 150px;
 
     border: 12px solid var(--main-color);
@@ -124,7 +124,7 @@ body {
 }
 
 #experience {
-    margin-left: 1315px;
+    margin-left: 55%;
 }
 
 /* { Footer } */
