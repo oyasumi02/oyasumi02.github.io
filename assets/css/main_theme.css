@@ -4,6 +4,13 @@
 
 /* :: [ Variables ] :: */
 
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('/assets/fonts/JosefinSansRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 :root {
 
     /* [ Body Colors ] */
@@ -141,13 +148,4 @@ body {
     padding: 80px;
     font-size: 1.4rem;
     color: var(--main-font-color);
-}
-
-/* { Font Configuration }  */
-
-@font-face {
-    font-family: 'Josefin Sans';
-    src: url('/assets/fonts/JosefinSansRegular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
 }
