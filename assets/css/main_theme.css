@@ -81,7 +81,7 @@ body {
 }
 
 .navbar a {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: white;
     text-decoration: none;
 }
@@ -113,7 +113,7 @@ body {
 }
 
 .text-box h2 {
-    font-size: 4rem;
+    font-size: 3rem;
     padding: 30px;
 }
 
@@ -136,16 +136,11 @@ body {
 
 /* { Footer } */
 
-#footer-section {
-    margin-top: 12%;
-    height: 180px;
+#footer-section {/* { Font Configuration }  */
 
-    background-color: var(--main-color);
-}
 
-#footer-section p {
     text-align: center;
     padding: 80px;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     color: var(--main-font-color);
 }
