@@ -66,3 +66,21 @@ header h1 {
 .button-link a:hover hr {
     display: block;
 }
+
+.text-box {
+    max-width: 40%;
+    height: 15%;
+
+    margin-left: 3%;
+    margin-top: 150px;
+
+    border: 12px solid #1B3C53;
+    box-shadow: 20px 24px 0px #0e1f2b;
+}
+
+.text-box h2 {
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    padding: 30px;
+}
