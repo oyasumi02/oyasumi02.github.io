@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('/assets/fonts/JosefinSansRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    font-size: 12pt
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #456882;
+}
+
+header {
+    padding: 40px;
+    color: white;
+    text-align: center;
+
+    background-color:#1B3C53;
+}
+
+header h1 {
+    font-size: 6rem
+}
+
+.navbar {
+    margin-top: 20px;
+    width: 100%;
+
+    text-align: center;
+    
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.navbar td {
+    position: relative;
+    top: 3px;
+    color: rgb(255, 255, 255);
+
+    padding: 8px;
+
+    border-bottom: 4px solid transparent;
+    transition: border-color 0.5s ease;
+}
+
+.navbar a {
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar td:hover {
+    border-bottom: 4px solid white;
+}
+
+.button-link {
+    width: 100%;
+    border: 0px solid white;
+}
+
+.button-link a:hover hr {
+    display: block;
+}
