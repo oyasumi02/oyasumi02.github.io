@@ -1,5 +1,5 @@
 /* Random Word selector */
-let list = ["Paige", "Hello!", "Banana", "Leave this page right now", "Idk", "Something"];
+let list = ["Hello!", "Banana", "Leave this page right now", "Idk", "Something"];
 let random = Math.random();
 
 window.onload = function() {
